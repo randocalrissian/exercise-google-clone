@@ -47,8 +47,11 @@ li {
 }
 
 input {
-	width: 459px;
-	height: 34px;
+	width: 470px;
+	height: 44px;
+	border: none;
+	padding: 4px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 #searchbuttons {
 	margin-top: 10px;
