@@ -1,0 +1,102 @@
+body {
+	font-size: small;
+	font-family: arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:link, a:visited {
+	color: black;
+}
+
+#container {
+	margin: 10 0 0 0 auto;
+	text-align: center;
+}
+
+#topbar {
+	margin: 25px 40px 0 0;
+	height: 100px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: right;
+	display: block;
+	padding: 0 0 0 18px;
+}
+
+#signin {
+	padding: 6px 14px 6px 14px;
+	background-color: #4285f4;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	margin-top: -6px;
+	color: white;
+	font-weight: bold;
+}
+
+#logo {
+	margin: auto;
+}
+
+#searchbar {
+	margin: auto;
+	padding-top: 15px;
+}
+
+input {
+	height: 100px;
+	width: 425px;
+}
+
+#searchoptions {
+	margin-top: 10px;
+}
+
+.button {
+	background-color: #f2f2f2;
+	border-radius: 2px;
+	height: 36px;
+	line-height: 27px;
+	font: bold 11px/27px arial, sans-serif;
+	font-weight: bold;
+	padding: 3px 16px 3px 16px;
+	margin: 20px 4px;
+	display: inline-block;
+	color: #757575;
+	font-size: 13px;
+	text-align: center;
+}
+
+#bottombar {
+	background-color: #f2f2f2;
+	border-top: 2px solid #e4e4e4;
+	height: 40px;
+	clear: both;
+	position: relative;
+	margin-top: 300px;
+}
+
+#bottombar ul {
+	margin-left: -40px;
+	margin-top: 5px
+}
+
+#bottomright {
+	margin-right: 20px;
+}
+
+#bottomleft {
+	float: left;
+}
+
