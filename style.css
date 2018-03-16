@@ -45,7 +45,6 @@ li {
 .right {
 	float: right;
 }
-
 input {
 	width: 470px;
 	height: 44px;
@@ -56,7 +55,6 @@ input {
 #searchbuttons {
 	margin-top: 10px;
 }
-
 .button {
 	background-color: #f2f2f2;
 	border-radius: 2px;
