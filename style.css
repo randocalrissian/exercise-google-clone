@@ -1,102 +1,104 @@
 body {
-	font-size: small;
-	font-family: arial, sans-serif;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
 }
-
 a {
 	text-decoration: none;
+	color: rgba(0,0,0,0.87);
 }
-
 a:hover {
 	text-decoration: underline;
 }
-
-a:link, a:visited {
-	color: black;
-}
-
-#container {
-	margin: 10 0 0 0 auto;
-	text-align: center;
-}
-
-#topbar {
-	margin: 25px 40px 0 0;
-	height: 100px;
-}
-
 ul {
 	list-style-type: none;
 }
-
 li {
-	float: right;
+	float:right;
 	display: block;
-	padding: 0 0 0 18px;
+	padding: 0 0 0 15px;
+	margin: 6px 6px 0 0;
 }
-
+#everything {
+	text-align: center;
+	min-height: 100%;
+}
+#nav {
+	height: 100px;
+}
 #signin {
-	padding: 6px 14px 6px 14px;
+	padding: 6px 12px 5px 12px;
 	background-color: #4285f4;
 	border: 1px solid transparent;
-	border-radius: 3px;
-	margin-top: -6px;
+	border-radius: 1px;
 	color: white;
 	font-weight: bold;
+	margin-right: 15px;
 }
-
-#logo {
-	margin: auto;
+#apps {
 }
-
-#searchbar {
-	margin: auto;
-	padding-top: 15px;
+.left {
+	float: left;
+}
+.right {
+	float: right;
 }
 
 input {
-	height: 100px;
-	width: 425px;
+	width: 459px;
+	height: 34px;
 }
-
-#searchoptions {
+#searchbuttons {
 	margin-top: 10px;
 }
 
 .button {
 	background-color: #f2f2f2;
 	border-radius: 2px;
-	height: 36px;
+	height: 30px;
 	line-height: 27px;
 	font: bold 11px/27px arial, sans-serif;
 	font-weight: bold;
-	padding: 3px 16px 3px 16px;
+	padding: 6px 16px 0px 16px;
 	margin: 20px 4px;
 	display: inline-block;
 	color: #757575;
 	font-size: 13px;
 	text-align: center;
 }
-
-#bottombar {
-	background-color: #f2f2f2;
-	border-top: 2px solid #e4e4e4;
-	height: 40px;
-	clear: both;
-	position: relative;
-	margin-top: 300px;
+.button:hover {
+	border-style: solid;
+	border: 1px solid;
+	border-color: #ccc;
+	margin: 19px 3px;
+	cursor: pointer;
 }
-
-#bottombar ul {
-	margin-left: -40px;
+#searchlink {
+	text-decoration: none;
+	color: #0e1aab;
+}
+#searchlink:hover {
+	text-decoration: underline;
+}
+#footer {
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	height: 40px;
+	width: 100%;
+	clear: both;
+	position: absolute;
+	bottom: 0;
+}
+#footer a {
+	color: #666;
+}
+#footer ul {
+	margin-left: -20px;
 	margin-top: 5px
 }
-
-#bottomright {
+#footer .right {
 	margin-right: 20px;
 }
-
-#bottomleft {
-	float: left;
 }
-
